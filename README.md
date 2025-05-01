@@ -1,5 +1,7 @@
 # Deep-Learning-project
 
+## This repository contains a modular and scalable deep learning pipeline for analyzing CT scan images. It is designed for medical imaging tasks such as classification, detection, and segmentation using modern deep learning frameworks.
+
 ## WorkFlows
 1. Workflows
 2. Update config.yaml
