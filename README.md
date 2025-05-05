@@ -37,3 +37,26 @@ just type pip install ensure and your ready to use
 7. Update the pipeline
 8. Update the main.py
 9. Update the dvc.yaml
+
+## Pipelines
+
+* Data Ingestion
+
+* IMPORTANT  when we do data ingestion task we should not keep our params.yaml file empty because whenever you will executing it will throw error, for that just take one key dummy value example i have taken key: val, later on you can changes it will all the model parameters 
+
+Data Ingestion is the process of collecting and importing data from various sources into a system where it can be stored, processed, and analyzed.
+
+It's like gathering raw ingredients before cooking. You're pulling data from different places so your data science models or analysis can use it.
+
+🧩 Sources of Data:
+Databases (SQL, NoSQL)
+
+APIs (Twitter API, weather APIs)
+
+Files (CSV, Excel, JSON, XML)
+
+Cloud storage (AWS S3, Google Cloud Storage)
+
+Web scraping
+
+IoT devices or sensors
