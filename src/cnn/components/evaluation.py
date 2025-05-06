@@ -1,3 +1,6 @@
+import dagshub
+dagshub.init(repo_owner='Akorikk', repo_name='Deep-Learning-project', mlflow=True)
+
 import tensorflow as tf
 from pathlib import Path
 from cnn.entity.config_entity import EvaluationConfig
@@ -6,8 +9,6 @@ import mlflow
 import mlflow.keras
 from urllib.parse import urlparse
 
-import dagshub
-dagshub.init(repo_owner='Akorikk', repo_name='Deep-Learning-project', mlflow=True)
 
 class Evaluation:
     def __init__(self, config: EvaluationConfig):
