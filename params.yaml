@@ -2,7 +2,7 @@ AUGMENTATION: True
 IMAGE_SIZE: [224, 224, 3] 
 BATCH_SIZE: 16
 INCLUDE_TOP: False
-EPOCHS: 2 # i am taking 1 but you have to take thousand if you increase the epochs you definitely get a good model 
+EPOCHS: 10 # i am taking 1 but you have to take thousand if you increase the epochs you definitely get a good model 
 CLASSES: 2 
 WEIGHTS: imagenet
 LEARNING_RATE: 0.01
