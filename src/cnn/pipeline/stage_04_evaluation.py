@@ -2,11 +2,7 @@ from cnn.config.configuration import ConfigurationManager
 from cnn.components.evaluation import Evaluation
 from cnn import logger
 
-
-
-
 STAGE_NAME = "Evaluation stage"
-
 
 class EvaluationPipeline:
     def __init__(self):
