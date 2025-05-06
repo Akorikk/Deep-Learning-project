@@ -7,8 +7,7 @@ import mlflow.keras
 from urllib.parse import urlparse
 
 import dagshub
-dagshub.init(repo_owner='bappymalik4161', repo_name='MLOPs-Production-Ready-Deep-Learning-Project', mlflow=True)
-
+dagshub.init(repo_owner='Akorikk', repo_name='Deep-Learning-project', mlflow=True)
 
 class Evaluation:
     def __init__(self, config: EvaluationConfig):
